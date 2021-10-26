@@ -9,10 +9,8 @@ const RepoItem = ({ repo }) => {
       </h3>
     </div>
   );
-
-  RepoItem.propTypes = {
-    repo: PropTypes.array.isRequired,
-  };
 };
-
+RepoItem.propTypes = {
+  repo: PropTypes.object.isRequired,
+};
 export default RepoItem;
